@@ -1,2 +1,2 @@
-# AutoIT_Master
-Main Repo for minor AutoIT Scripts
+Main Repo for AutoIT Scripts
+ViciousXUSMC - ViciousComputers.com
