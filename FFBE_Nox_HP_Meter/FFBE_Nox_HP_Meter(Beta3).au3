@@ -1,4 +1,5 @@
 #Include <Array.au3>
+#RequireAdmin
 
 MsgBox(0, "", "Press ESC Key to Exit at anytime.")
 
