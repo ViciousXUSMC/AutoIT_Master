@@ -11,3 +11,9 @@ Please post feedback on the Reddit Thread linking here.
 https://www.reddit.com/r/FFBraveExvius/comments/6gm59t/beta_test_nox_live_hp_readings_application/
 
 Thanks!
+
+Change Log:
+Beta v2
+Made the actual window smaller to take up less space, while making the number readout bigger and bolder.
+Added a 2nd checking point that will help determin if you are in a battle or not.  
+This will help avoid seeing HP readings from anything on screen when not in battle.
