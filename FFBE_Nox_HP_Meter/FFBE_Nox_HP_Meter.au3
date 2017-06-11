@@ -1,5 +1,9 @@
 #Include <Array.au3>
 
+MsgBox(0, "", "Press ESC Key to Exit at anytime.")
+
+HotKeySet("{ESC}", _Terminate)
+
 
 $sWindowTitle = "Nox App Player"
 $sWindowText = "QWidgetClassWindow"
@@ -38,6 +42,11 @@ While 1
 	ControlSetText("FFBE HP Meter", "", "Static1", $iVal)
 	;ControlSetText("FFBE HP Meter", "", "Static1", ($aPixelSearch[0]-$aWinPos[0]-$iLeft)/($iRight-$iLeft))
 WEnd
+
+Func _Terminate()
+	Exit
+EndFunc
+
 
 
 ;_ArrayDisplay($aWinPos)
