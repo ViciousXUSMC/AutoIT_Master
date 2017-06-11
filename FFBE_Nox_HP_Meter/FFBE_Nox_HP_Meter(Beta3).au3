@@ -5,8 +5,8 @@ MsgBox(0, "", "Press ESC Key to Exit at anytime.")
 
 HotKeySet("{ESC}", _Terminate)
 
-
-$sWindowTitle = "Nox App Player"
+$sINI = @ScriptDir & "\FFBE_Nox_HP_Meter.ini"
+$sWindowTitle = IniRead($sINI, "Nox_Settings", "WindowName", "Nox App Player")
 $sWindowText = ""
 $iColor = 0x000000
 $hWin = WinGetHandle($sWindowTitle, $sWindowText)
