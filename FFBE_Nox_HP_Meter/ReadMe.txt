@@ -8,5 +8,6 @@ It will also get configuraion options so you can manually overide for perfect se
 Last I will find a way to make it work on MeMU as well.
 
 Please post feedback on the Reddit Thread linking here.
+https://www.reddit.com/r/FFBraveExvius/comments/6gm59t/beta_test_nox_live_hp_readings_application/
 
 Thanks!
