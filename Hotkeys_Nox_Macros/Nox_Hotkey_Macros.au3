@@ -9,7 +9,7 @@ Initial Release
 Contains INI File to tune setup for 4 macros
 If you want to change hotkey to a different key look up Send Keys for AutoIT to see keys you can use
 #ce
-
+;test
 $sINIPath = @ScriptDir & "\Nox_Hotkey_Macros.ini"
 
 If Not FileExists($sINIPath) Then MsgBox(0, "", "Can Not Find Nox_Hotkey_Macros.ini - Using Defaults")
